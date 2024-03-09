@@ -1,0 +1,13 @@
+.Footer{
+    background-color: #222;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    position: sticky;
+    padding: 20px 0px;
+}
+
+.Footer h1{
+    font-size: 29px;
+    margin-left: 10px;
+}
