@@ -1,15 +1,22 @@
+
+
+
 header{
     background-color: #222;
     display: flex;
     justify-content: space-between;
     width: 100vw;
     border-bottom: 1px solid black;
+    
 }
 
 header h1{
-    font-size: 18px;
+    font-size: 2vw;
     color: white;
-    margin-left: 3px;
+    margin-left: 1vw;
+    transition: 0.2s;
+    animation-name: fluctuating;
+    animation-duration: 4s;
 }
 
 header nav{
@@ -18,16 +25,43 @@ header nav{
     align-items: center;
 }
 
-header a{
+header .navItem{
     height: 100%;
-    padding: 10px;
-    text-align: center;
+    transition: 0.2s;
+    animation-name: fluctuating;
+     animation-duration: 10s;
 }
 
-header a:hover{
-    background-color: #333;
+
+
+.navItem a{
+    width: 100%;
+    text-align: center;
+    
+}
+
+h1:hover{
+    animation-iteration-count: infinite;
 }
 
 .myHeader{
     
+}
+
+
+@keyframes wordComing {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes fluctuating{
+    0%{
+        font-size: 2vw;
+    }
+    50%{
+        font-size: 2.1vw;
+    }
+    100%{
+        font-size: 2vw;
+    }
 }

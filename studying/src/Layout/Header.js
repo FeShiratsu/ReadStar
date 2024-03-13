@@ -5,9 +5,9 @@ function Header(){
         <header className={styles.myHeader}>
             <h1>Basic Marketplace</h1>
             <nav>
-                <Link className={styles.link} to='/'>Home</Link>
-                <Link className={styles.link} to='/login'>Login</Link>
-                <Link className={styles.link} to='/register'>Register</Link>
+                <div className={styles.navItem}><Link className={styles.link} to='/'>Home</Link></div>
+                <div className={styles.navItem}><Link className={styles.link} to='/login'>Login</Link></div>
+                <div className={styles.navItem}><Link className={styles.link} to='/register'>Register</Link></div>
             </nav>
         </header>
     )
