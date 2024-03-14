@@ -8,7 +8,10 @@ function Home(){
         <main className={styles.hPage}>
             <div className={styles.content}>
                 <Product name="Iphone" price={7.5} image={iphone}></Product>
-                <Product name="Tablet" price={700.5} image={Tablet}></Product>    
+                <Product name="Tablet" price={700.5} image={Tablet}></Product>
+                <Product name="Iphone" price={7.5} image={iphone}></Product>
+                <Product name="Tablet" price={700.5} image={Tablet}></Product>
+                    
             </div>
         </main>
     )

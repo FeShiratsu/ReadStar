@@ -11,14 +11,13 @@
 
 .content{
     background-color: #555;
-    width: 80%;
-    height: 100vh;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    justify-items: center;
-    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-self: center;
+    align-content: center;
     padding: 2rem;
+    margin: auto;
 }
 
 .content button:first-child{
