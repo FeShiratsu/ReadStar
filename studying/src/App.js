@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
 import { BrowserRouter as Router,Link,Routes,Route } from 'react-router-dom';
 import Header from './Layout/Header';
 import Footer from './Layout/Footer';
@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route exact path='/' element={<Home></Home>}/>
-        <Route exact path='/register' element={<Register></Register>}/>
-        <Route exact path='/login' element={<Login></Login>}/>
+        <Route className={styles.Base} exact path='/register' element={<Register></Register>}/>
+        <Route className={styles.Base} exact path='/' element={<Home></Home>}/>
+        <Route className={styles.Base} exact path='/login' element={<Login></Login>}/>
       </Routes>
       <Footer/>
     </Router>

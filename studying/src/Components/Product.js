@@ -1,7 +1,7 @@
-import styles from '../Css/home.module.css'
+import styles from '../Css/product.module.css'
 
 import { useState } from 'react';
-function Product({name,price,image}){
+function Product({name, price,image}){
     const [iD, setiD] = useState("prodName");
     const handleClick = () => {
         setiD("prodName");
@@ -13,7 +13,7 @@ function Product({name,price,image}){
                         <h1 id={iD}>{name}</h1>
                         <img src={image} alt=""/>
                         <h2>{price} R$</h2>
-                        <br></br>
+
                         <div className={styles.buttons}>
                             
                             <button onClick={handleClick}>Buy</button>
