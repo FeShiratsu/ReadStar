@@ -1,5 +1,5 @@
 .Footer{
-    background-color: #222;
+    background-color: #402B12;
     color: white;
     display: flex;
     font-size: 15px;
@@ -15,7 +15,6 @@
 .Footer h1{
     font-size: 29px;
     margin-left: 10px;
-    
 }
 
 .Footer h1:hover{

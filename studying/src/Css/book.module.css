@@ -1,0 +1,48 @@
+.bookContainer{
+    color: white;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookContainer h3{
+    font-weight: 10;
+    margin: 0%;
+    background-color: #8C7C5E;
+    border-bottom: 1px solid black;
+    padding: 0.3rem 0rem;
+}
+
+.bookContainer .actionBar{
+    display: flex;
+}
+
+.actionBar{
+    font-size: 2px;
+}
+
+.actionBar img{
+    width: 2rem;
+    background-color: #D9AE5F;
+    border: 1px solid #333;
+}
+
+.actionBar button{
+    width: 85%;
+    background-color: #D9AE5F;
+    border: 1px solid #333;
+    font-family: InkFree;
+}
+
+.classImg{
+    width: 1px;
+}
+
+
+.actionBar button:hover{
+    background-color: #dbbb7e;
+}
+
+.actionBar img:hoveR{
+    background-color: #dbbb7e;
+}

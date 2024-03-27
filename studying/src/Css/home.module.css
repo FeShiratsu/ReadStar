@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.container h2{
+    color: white;
+    font-size: 2rem;
+}
