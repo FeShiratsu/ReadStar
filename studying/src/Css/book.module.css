@@ -1,11 +1,13 @@
 .bookContainer{
     color: white;
     width: 12rem;
+    
     display: flex;
     flex-direction: column;
 }
 
 .bookContainer h3{
+    font-size: 1rem;
     font-weight: 10;
     margin: 0%;
     background-color: #8C7C5E;
@@ -21,8 +23,13 @@
     font-size: 2px;
 }
 
+.titleImg {
+    height: 17rem;
+}
+
 .actionBar img{
     width: 2rem;
+    
     background-color: #D9AE5F;
     border: 1px solid #333;
 }

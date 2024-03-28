@@ -1,0 +1,24 @@
+.catList{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    flex-wrap: wrap;
+    
+    
+}
+
+.catList p{
+    display: inline-block;
+    margin: 10px 0 0 2%;
+    flex-grow: 1;
+    flex-basis: 19%
+}
+
+.categories{
+    color: white;
+}
+
+
+.catList p:hover{
+    text-decoration: underline;
+}
