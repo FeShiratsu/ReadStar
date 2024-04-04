@@ -4,7 +4,7 @@ import carrinhoCompras from '../Images/carrinho-de-compras.png'
 function Header(){
     return (
         <header className={styles.myHeader}>
-            <h1>ReadStar</h1>
+            <a href="/"><h1>ReadStar</h1></a>
             <nav>
                 <img className={styles.cart} src={carrinhoCompras} alt=""/>
                 <div className={styles.navItem}><Link className={styles.link} to='/login'>Login</Link></div>

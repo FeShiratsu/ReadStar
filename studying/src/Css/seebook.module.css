@@ -1,0 +1,83 @@
+.actionBar button:hover{
+    background-color: #dbbb7e;
+}
+
+.actionBar img:hoveR{
+    background-color: #dbbb7e;
+}
+
+.actionBar img{
+    border: 1px solid black;
+    width: 2rem;
+    transition:  2s;
+    background-color: #D9AE5F;
+    border: 1px solid #333;
+}
+
+.actionBar button{
+    width: 85%;
+    background-color: #D9AE5F;
+    border: 1px solid #333;
+    font-family: InkFree;
+}
+
+.actionBar{
+    font-size: 2px;
+}
+
+.actionBar{
+    display: flex;
+}
+
+/* Changes above are about the action bar only  */
+.bookContainer{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+
+.imgTile img{
+    width: 80%;
+    height: 30rem;
+    padding: 1rem;
+    background-color: #AB8A4C;
+}
+.imgTile{
+    padding: 1rem;
+    background-color: #8C713E;
+}
+
+.infoTile  *{
+    margin: 0px;
+}
+
+.infoTile{
+    background-color: #8C713E;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bookName{
+    padding: 1rem;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.rating{
+    padding: 0.3rem;
+    text-align: start;
+}
+
+.bookInfo{
+    padding: 1rem;
+    font-weight: 100;
+    font-size: 1w;
+}
+
+.bookName, .rating, .bookInfo{
+    background-color: #8C713E;
+    border: 1px solid black;
+}

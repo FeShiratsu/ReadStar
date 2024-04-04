@@ -28,8 +28,9 @@
 }
 
 .actionBar img{
+    border: 1px solid black;
     width: 2rem;
-    
+    transition:  2s;
     background-color: #D9AE5F;
     border: 1px solid #333;
 }
@@ -52,4 +53,8 @@
 
 .actionBar img:hoveR{
     background-color: #dbbb7e;
+}
+
+.titleImg:hover{
+    filter: blur(1px) brightness(70%);
 }

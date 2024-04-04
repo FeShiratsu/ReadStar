@@ -1,0 +1,28 @@
+.input{
+    color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.input label{
+    width: 5rem;
+    padding: 0.5rem 1rem;
+    background-color: #8C7C5E;
+    font-family: InkFree;
+}
+
+.input input{
+    font-size: 1.7vw;
+    padding-top: 1rem;
+    background-color: #AF9A71;
+}
+
+.input input::placeholder{
+    font-family: InkFree;
+    color: snow;
+    font-size: 1rem;
+}
+
+.input:focus{
+    border: 1px solid black;
+}

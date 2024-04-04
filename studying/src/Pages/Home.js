@@ -12,28 +12,27 @@ import book7 from "../Images/2 (7).jpg";
 
 function Home(){
     const categ = ["Action","Adventure","Drama","Investigation","Kids","Fiction","Horror","Humour","Romance"]
-    let selectedCat = "Adventure"
+    const [selectedCat,changeCat] = useState("Aventura")
 
-    function ChangeCat(newCat){
-        selectedCat = useState(newCat)
+    function makePage(){
     }
-
+    
     return(
         <main className={styles.container}>
             <h2>Trending now!</h2>
             <div className={styles.list}>
-                <Book name = "Banana Diary" bookSrc={book3}  price = {1.50}></Book>
-                <Book name = "Banana Diary" bookSrc={book4}  price = {1.50}></Book>
-                <Book name = "Banana Diary" bookSrc={book5}  price = {1.50}></Book>
+                <Book name = "Banana Diary 1" bookSrc={book3}  price = {1.50}></Book>
+                <Book name = "Banana Diary 2" bookSrc={book4}  price = {2.50}></Book>
+                <Book name = "Banana Diary 3" bookSrc={book5}  price = {3.50}></Book>
             </div>
-            <Categories categories={categ}/>
+            <Categories categories={categ} clickFunc= {changeCat} />
             <br></br><br></br>
             <h4>You selected:</h4>
             <h3>{selectedCat}</h3>
             <div className={styles.list}>
-                <Book name = "Banana Diary" bookSrc={book6}  price = {1.50}></Book>
-                <Book name = "Banana Diary" bookSrc={book7}  price = {1.50}></Book>
-                <Book name = "Banana Diary" bookSrc={book2}  price = {1.50}></Book>
+                <Book name = "Credo Assassino 1" bookSrc={book6}  price = {5.50}></Book>
+                <Book name = "Credo Assassino 2" bookSrc={book7}  price = {6.50}></Book>
+                <Book name = "Credo Assassino 3" bookSrc={book2}  price = {7.50}></Book>
             </div>
         </main>
     );
