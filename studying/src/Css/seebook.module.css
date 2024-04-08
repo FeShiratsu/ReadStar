@@ -15,7 +15,7 @@
 }
 
 .actionBar button{
-    width: 85%;
+    width: 100%;
     background-color: #D9AE5F;
     border: 1px solid #333;
     font-family: InkFree;
@@ -31,14 +31,13 @@
 
 /* Changes above are about the action bar only  */
 .bookContainer{
+    margin-top: 5rem;
     display: flex;
-    width: 70%;
-    margin: 0 auto;
+    justify-content: center;
     color: white;
 }
 
 .imgTile img{
-    width: 80%;
     height: 30rem;
     padding: 1rem;
     background-color: #AB8A4C;
@@ -49,10 +48,12 @@
 }
 
 .infoTile  *{
+    
     margin: 0px;
 }
 
 .infoTile{
+    width: 20rem;
     background-color: #8C713E;
     display: flex;
     flex-direction: column;
@@ -69,15 +70,21 @@
 .rating{
     padding: 0.3rem;
     text-align: start;
+    display: flex;
 }
 
 .bookInfo{
     padding: 1rem;
     font-weight: 100;
     font-size: 1w;
+    text-align: justify;
 }
 
 .bookName, .rating, .bookInfo{
     background-color: #8C713E;
     border: 1px solid black;
+}
+
+.rating img{
+    width: 1rem;
 }
